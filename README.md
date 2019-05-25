@@ -1,1 +1,1 @@
-# JSlaern
+# JSlearn
