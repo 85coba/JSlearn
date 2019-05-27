@@ -20,7 +20,9 @@ for (let i = 0; i < 2; i++) {
         } 
 };
 
-appData.moneyPerDay = app.budjet / 30;
+appData.moneyPerDay = appData.budjet / 30;
+
+alert ('Ежедневный бюджет: ' + appData.moneyPerDay);
 
 if (appData.moneyPerDay < 100) {
     console.log('Минимальный уровень достатка');
@@ -30,4 +32,4 @@ if (appData.moneyPerDay < 100) {
     console.log('Високий уровень достатка');
 } else {
     console.log('Произошла ошибка');
-};
+}
