@@ -42,6 +42,8 @@ function chooseOptExpenses() {
     }
 }
 
+chooseOptExpenses();
+
 // let i = 0;
 // while (i < 2) {
 //     let a = prompt("Введите обязательную статью расходов в этом месяце", ""),
